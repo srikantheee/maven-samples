@@ -21,14 +21,14 @@
     <module>multi-module</module>
     <module>single-module</module>
   </modules>
-         	<plugin>
-  		<groupId>org.apache.maven.plugins</groupId>
-   		<artifactId>maven-release-plugin</artifactId>
-   		<version>3.0.0-M1</version>
-  		 <configuration>
-     			<tagNameFormat>v@{project.version}</tagNameFormat>
-      			<autoVersionSubmodules>true</autoVersionSubmodules>
-  	 	</configuration>
+  <plugin>
+  	<groupId>org.apache.maven.plugins</groupId>
+	  <artifactId>maven-release-plugin</artifactId>
+	  <version>3.0.0-M1</version>
+	  <configuration>
+		  <tagNameFormat>v@{project.version}</tagNameFormat>
+		  <autoVersionSubmodules>true</autoVersionSubmodules>
+	  </configuration>
 	</plugin>
 
   <prerequisites>
