@@ -9,6 +9,13 @@
   <version>1.0-SNAPSHOT</version>
   <name>Parent</name>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
+  
+      <scm>
+        <connection>scm:git:https://github.com/srikantheee/maven-samples.git</connection>
+        <developerConnection>scm:git:https://github.com/srikantheee/maven-samples.git</developerConnection>
+        <url>https://github.com/srikantheee/maven-samples.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
   <modules>
     <module>multi-module</module>
