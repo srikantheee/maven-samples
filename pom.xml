@@ -11,9 +11,9 @@
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
   
       <scm>
-        <connection>scm:git:https://github.com/srikantheee/maven-samples.git</connection>
-        <developerConnection>scm:git:https://github.com/srikantheee/maven-samples.git</developerConnection>
-        <url>https://github.com/srikantheee/maven-samples.git</url>
+        <connection>scm:git:ssh://git@github.com:srikantheee/maven-samples.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:srikantheee/maven-samples.git</developerConnection>
+        <url>scm:git:ssh://git@github.com:srikantheee/maven-samples.git</url>
         <tag>HEAD</tag>
     </scm>
 
