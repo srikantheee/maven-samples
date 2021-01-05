@@ -22,9 +22,7 @@
     <module>single-module</module>
   </modules>
 	
-<build>
-  <plugins>
-   <plugin>
+<plugin>
   	 <groupId>org.apache.maven.plugins</groupId>
 	   <artifactId>maven-release-plugin</artifactId>
 	   <version>3.0.0-M1</version>
@@ -32,9 +30,7 @@
 		  <tagNameFormat>v@{project.version}</tagNameFormat>
 		  <autoVersionSubmodules>true</autoVersionSubmodules>
 	   </configuration>
-	 </plugin>
-  <plugins>
-<build>
+<plugin>
 
   <prerequisites>
     <maven>3.0.3</maven>
